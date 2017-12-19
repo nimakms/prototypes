@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdsProxyLibraryDotNetFwk", "CdsProxyLibraryDotNetFwk\CdsProxyLibraryDotNetFwk.csproj", "{82DE27E2-2AB6-4A11-9B88-F20B6536343C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdsODataConsoleApp", "CdsODataConsoleApp\CdsODataConsoleApp.csproj", "{247B1F50-93B4-4DAF-AD07-469F67D6343A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82DE27E2-2AB6-4A11-9B88-F20B6536343C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DE27E2-2AB6-4A11-9B88-F20B6536343C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DE27E2-2AB6-4A11-9B88-F20B6536343C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DE27E2-2AB6-4A11-9B88-F20B6536343C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247B1F50-93B4-4DAF-AD07-469F67D6343A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247B1F50-93B4-4DAF-AD07-469F67D6343A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247B1F50-93B4-4DAF-AD07-469F67D6343A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247B1F50-93B4-4DAF-AD07-469F67D6343A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB0224C-E34E-48A8-9F1D-E3579273C80C}
+	EndGlobalSection
+EndGlobal

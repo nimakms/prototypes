@@ -1,0 +1,13 @@
+{
+  "frameworks": {
+    "net46":{
+        "dependencies": {
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.17.2",
+            "Microsoft.OData.Client": "6.19.0",
+            "Microsoft.OData.Core": "6.19.0",
+            "Microsoft.OData.Edm": "6.19.0",
+            "Microsoft.Spatial": "6.19.0"
+        }
+    }
+  }
+}
