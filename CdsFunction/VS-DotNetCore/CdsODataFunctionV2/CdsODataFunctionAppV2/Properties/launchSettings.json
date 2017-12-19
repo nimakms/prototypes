@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CdsODataFunctionAppV2": {
+      "commandName": "Executable",
+      "executablePath": "%APPDATA%\\npm\\func.cmd",
+      "commandLineArgs": "host start",
+      "workingDirectory": "$(TargetDir)/publish"
+    }
+  }
+}

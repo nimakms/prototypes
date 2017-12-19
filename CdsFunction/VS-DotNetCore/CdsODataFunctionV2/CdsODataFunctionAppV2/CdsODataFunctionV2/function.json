@@ -1,0 +1,14 @@
+﻿{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "methods": [
+        "GET"
+      ],
+      "authLevel": "anonymous",
+      "name": "req"
+    }
+  ],
+  "scriptFile": "../bin/CdsODataFunctionAppV2.dll",
+  "entryPoint": "CdsODataFunctionAppV2.CdsODataFunctionV2.Run"
+}

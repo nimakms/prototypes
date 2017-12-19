@@ -24,7 +24,7 @@ namespace CdsODataFunctionAppV2
                 log.Info($"Name: {account.name}");
             }
 
-            return new OkObjectResult($"Hello");
+            return new OkResult();
         }
     }
 }
