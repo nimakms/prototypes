@@ -27,7 +27,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
                 new AuthenticationContext("https://login.windows.net/common", false);
             AuthenticationResult result = authContext.AcquireTokenAsync(resource,
                 clientId,
-                new UserPasswordCredential("admin2@M365x652221.onmicrosoft.com", "Jaju2130")).Result;
+                new UserPasswordCredential("SomeUserName", "SomePassword")).Result;
 
 
             context.BuildingRequest += (sender, eventArgs)=>
